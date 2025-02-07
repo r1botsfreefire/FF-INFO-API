@@ -26,7 +26,9 @@ Requests: For making HTTP Requests to Server.
 📁 Additional Information
 This API response Does not Represent the Actual Structure Received from the Official Garena Server.
 The Response structure is simplified in an User-Friendly Structure for the ease of understanding for Anyone at any level of Programming.
-```All images related to item IDs shown by the API response (e.g., avatars, banners, outfits, weapons) are available at https://freefiresite.vercel.app/icon?item={item_id}``` for the convenience of API users in their development projects.
+
+```All images related to item IDs shown by the API response (e.g., avatars, banners, outfits, weapons) are available at https://freefiresite.vercel.app/icon?item={item_id}```
+for the convenience of API users in their development projects.
 💬 Example of a Successful Reponse May Look Like this,
 
 ```{
