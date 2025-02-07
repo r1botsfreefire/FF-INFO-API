@@ -1,37 +1,3 @@
-📝 API Documentation
-Account Information API
-API Route = ```https://wlx-demon-info.vercel.app/profile_info?uid={uid}&region={region}```
-
-Endpoint: api/info key: astute_ff Method: GET
-
-This Endpoint Retrieves Account Information based on the Specified Region and User ID.
-
-📨 Request Example
-```GET
- https://wlx-demon-info.vercel.app/profile_info?uid=12022250&region=ind```
-☑️ Query Parameters
-Parameter	Type	Required	Description
-region	string	Yes	The region code (sg, ind, br,id, tw, us, sac, th, me, pk, cis, bd).
-uid	int	Yes	The user ID.
-key	string	Yes	Join https://t.me/FFwlx_demon to get Latest Key.
-📚 Purpose of the API
-
-The primary purpose of providing this free API is to enhance the Free Fire community experience. Garena Free Fire does not offer official account information APIs, so this custom solution aims to fill that gap, providing players and developers with valuable account data
-
-🧩 (Some of🤫) Frameworks and Libraries Used
-
-Flask: A micro web framework for Python to build the API endpoints.
-Flask-CORS: For handling Cross-Origin Resource Sharing (CORS).
-PyCryptodome: For implementing Decryption and Encryption.
-Requests: For making HTTP Requests to Server.
-📁 Additional Information
-This API response Does not Represent the Actual Structure Received from the Official Garena Server.
-The Response structure is simplified in an User-Friendly Structure for the ease of understanding for Anyone at any level of Programming.
-
-```All images related to item IDs shown by the API response (e.g., avatars, banners, outfits, weapons) are available at https://freefiresite.vercel.app/icon?item={item_id}```
-for the convenience of API users in their development projects.
-💬 Example of a Successful Reponse May Look Like this,
-
 {
   "AccountInfo": {
     "AccountAvatarId": 902000013,
@@ -120,21 +86,3 @@ for the convenience of API users in their development projects.
   },
   "success": true
 }
-
-😵 Error Responses
-API might Show Error Response Upon Users' Inaccurate Requests!
-
-Error Instances and Solutions
-Error Code: 400
-
-Message: Invalid region.
-Solution: Make sure you are using a valid region code.
-Error Code: 429
-
-Message: Abnormal Requests Detected. Please Avoid Misusing Info API for Visits or Your IP may get Blocked!
-Solution: Avoid excessive requests or contact the API provider for assistance.
-Error Code: 500
-
-Message: An error occurred while processing your request. Please Recheck Your ID & Region.
-Solution: Double-check the provided user ID and region, and retry the request. If the issue persists, contact the API provider for support.
-API Made By WLX DEMON, All Rights Reserved!
