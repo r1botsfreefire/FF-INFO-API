@@ -1,3 +1,33 @@
+Free Fire Account Information API 💀🗿
+
+
+API URL = https://wlx-demon-info.vercel.app/profile_info?uid=12022250&region=ind
+
+
+
+USE IN CODES LIKE THAT
+
+https://wlx-demon-info.vercel.app/profile_info?uid={uid}&region={region}
+
+
+ALL REGIONS SUPPORTED
+
+
+|______________________________________________________________|
+| Supported   |                                                |
+|  Regions    | ind, bd, pak, us, tw, me, sac, eu, sg, br, th, |
+|______________________________________________________________|
+
+
+
+
+
+
+
+
+
+
+
 ```{
   "AccountInfo": {
     "AccountAvatarId": 902000013,
