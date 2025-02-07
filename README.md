@@ -32,8 +32,7 @@ The Response structure is simplified in an User-Friendly Structure for the ease 
 for the convenience of API users in their development projects.
 💬 Example of a Successful Reponse May Look Like this,
 
-`{
-
+{
   "AccountInfo": {
     "AccountAvatarId": 902000013,
     "AccountBPBadges": 6,
