@@ -13,10 +13,11 @@ https://wlx-demon-info.vercel.app/profile_info?uid={uid}&region={region}
 ALL REGIONS SUPPORTED
 
 
-✓|_____________________________________________________________|
-| Supported   |                                                |
-|  Regions    | ind, bd, pak, us, tw, me, sac, eu, sg, br, th, |
-|______________________________________________________________|✓
+✓|______________________________________________________________|
+ | Supported                                                    | 
+ |                                                              |
+ |  Regions    | ind, bd, pak, us, tw, me, sac, eu, sg, br, th, |
+ |______________________________________________________________|✓
 
 
 
