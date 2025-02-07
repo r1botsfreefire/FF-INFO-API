@@ -1,4 +1,4 @@
-{
+`{
   "AccountInfo": {
     "AccountAvatarId": 902000013,
     "AccountBPBadges": 6,
@@ -85,4 +85,4 @@
     "AccountSignature": "oh ok"
   },
   "success": true
-}
+}`
