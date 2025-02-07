@@ -15,7 +15,7 @@ GET https://wlx-demon-info.vercel.app/profile_info?uid=12022250&region=ind
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
 | `uid`     | int | Yes      | The user ID.                  |
-| `key`     | string | Yes      | Join https://t.me/FFwlx_demon.                  |
+| `key`     | string | No      | Join https://t.me/FFwlx_demon.                  |
 
 
 📚 **Purpose of the API**  
