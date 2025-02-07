@@ -120,7 +120,7 @@ for the convenience of API users in their development projects.
     "AccountSignature": "oh ok"
   },
   "success": true
-}```
+}
 
 😵 Error Responses
 API might Show Error Response Upon Users' Inaccurate Requests!
