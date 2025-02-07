@@ -6,11 +6,11 @@ Endpoint: api/info key: astute_ff Method: GET
 
 This Endpoint Retrieves Account Information based on the Specified Region and User ID.
 
-```📨 Request Example
-GET https://wlx-demon-info.vercel.app/profile_info?uid=12022250&region=ind
+📨 Request Example
+```GET https://wlx-demon-info.vercel.app/profile_info?uid=12022250&region=ind```
 ☑️ Query Parameters
 Parameter	Type	Required	Description
-region	string	Yes	The region code (sg, ind, br,id, tw, us, sac, th, me, pk, cis, bd)```.
+region	string	Yes	The region code (sg, ind, br,id, tw, us, sac, th, me, pk, cis, bd).
 uid	int	Yes	The user ID.
 key	string	Yes	Join https://t.me/FFwlx_demon to get Latest Key.
 📚 Purpose of the API
