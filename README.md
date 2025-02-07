@@ -28,7 +28,8 @@ This API response Does not Represent the Actual Structure Received from the Offi
 The Response structure is simplified in an User-Friendly Structure for the ease of understanding for Anyone at any level of Programming.
 All images related to item IDs shown by the API response (e.g., avatars, banners, outfits, weapons) are available at https://freefiresite.vercel.app/icon?item={item_id} for the convenience of API users in their development projects.
 💬 Example of a Successful Reponse May Look Like this,
-{
+
+```{
   "AccountInfo": {
     "AccountAvatarId": 902000013,
     "AccountBPBadges": 6,
@@ -115,7 +116,8 @@ All images related to item IDs shown by the API response (e.g., avatars, banners
     "AccountSignature": "oh ok"
   },
   "success": true
-}
+}```
+
 😵 Error Responses
 API might Show Error Response Upon Users' Inaccurate Requests!
 
