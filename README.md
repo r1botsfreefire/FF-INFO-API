@@ -1,12 +1,12 @@
 # 📝 API Documentation
 
 ##  Account Information API
-API Route = https://wlx-demon-info.vercel.app/profile_info?uid={uid}&region={region}
+API Route = https://wlx-demon-info.vercel.app/profile_info?uid={uid}&region={region}&key={key}
 
 
 ### 📨 Request Example
 ```http
-GET https://wlx-demon-info.vercel.app/profile_info?uid=12022250&region=ind
+GET https://wlx-demon-info.vercel.app/profile_info?uid=12022250&region=ind&key=FFwlx
 ```
 
 ### ☑️ Query Parameters
@@ -15,7 +15,7 @@ GET https://wlx-demon-info.vercel.app/profile_info?uid=12022250&region=ind
 |-----------|--------|----------|-------------------------------|
 | `region`  | string | Yes      | The region code (`sg`, `ind`, `br`,`id`, `tw`, `us`, `sac`, `th`, `me`, `pk`, `cis`, `bd`).|
 | `uid`     | int | Yes      | The user ID.                  |
-| `key`     | string | No      | Join https://t.me/FFwlx_demon.                  |
+| `key`     | string | yes      | Join https://t.me/FFwlx_demon.                  |
 
 
 📚 **Purpose of the API**  
